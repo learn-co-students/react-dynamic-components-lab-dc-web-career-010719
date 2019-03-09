@@ -1,1 +1,12 @@
-// add Comment component here
+// add Comment component her
+import React, { Component } from 'react'
+
+class Comment extends Component {
+  render() {
+    return (
+      <div className="comment">{this.props.commentText}</div>
+    )
+  }
+}
+
+export default Comment
